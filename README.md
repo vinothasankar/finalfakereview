@@ -1,5 +1,3 @@
- 
-
 The goal of this project is to develop a system capable of: 
 
 Classifying reviews as fake or real using both traditional machine learning , deep learning models, Transformers 
@@ -7,8 +5,6 @@ Classifying reviews as fake or real using both traditional machine learning , de
 Clustering similar reviews to group related feedback together. 
 
 Identifying underlying topics in the reviews to understand customer sentiments and issues. 
-
- 
 
 Approach: 
 
@@ -96,9 +92,6 @@ Logistic Regression (lr_model)
 
 Fitting: The Voting Classifier is trained on the same dataset (X_train, y_train). 
 
-Probability Estimation: SVM was retrained with probability=True to ensure compatibility with Soft Voting. 
-
- 
 
 3. Evaluation Metrics 
 
@@ -122,14 +115,7 @@ Confusion Matrix
 
 Displays the counts of True Positives (TP), False Positives (FP), False Negatives (FN), and True Negatives (TN) for each class 
 
- 
-
- 
-
- 
-
 TensorFlow: Deep learning models (e.g., LSTM, BERT) for review classification. 
-
 
 
 Topic Modeling (Unsupervised Learning):Topic modeling techniques are used to extract key themes from the reviews. We use the following methods: 
